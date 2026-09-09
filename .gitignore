@@ -1,4 +1,59 @@
+# Dados tabulares genéricos (template FIAP)
 *.csv
 *.tsv
 *.xls
 *.xlsx
+
+# Dataset obrigatório da Fase 5
+!src/data/
+!src/data/crop_yield.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Segredos
+.env
+*.key
+*.pem
+credentials.json
+
+# Logs e cobertura
+*.log
+logs/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.pytest_cache/
+
