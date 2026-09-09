@@ -31,14 +31,20 @@ Há duas entregas obrigatórias:
 
 ### Comece por aqui — Notebook Jupyter (Entrega 1)
 
-| Versão | Arquivo |
-|---|---|
-| Local | [`src/RenanRamos_RM573201_pbl_fase5.ipynb`](src/RenanRamos_RM573201_pbl_fase5.ipynb) |
-| Google Colab | [`src/RenanRamos_RM573201_pbl_fase5.ipynb`](src/RenanRamos_RM573201_pbl_fase5.ipynb) | https://colab.research.google.com/drive/1r0LgJtEA8G5SFdSWksU7YYj4qQ3tyypI
+O relatório completo da solução de Machine Learning (EDA, clusterização, outliers, cinco modelos e conclusões) está no Jupyter. Abra uma das opções abaixo.
 
-Abra o notebook para ver o código executado, as células markdown do relatório, os gráficos e as conclusões da solução de ML.
+| Versão | Arquivo no repositório | Abrir no Google Colab |
+|---|---|---|
+| Principal | [`src/RenanRamos_RM573201_pbl_fase5.ipynb`](src/RenanRamos_RM573201_pbl_fase5.ipynb) | [Abrir no Colab](https://colab.research.google.com/github/RenanSluder/templateFiapVfinal/blob/main/src/RenanRamos_RM573201_pbl_fase5.ipynb) |
+| Web / Colab | [`src/RenanRamos_RM573201_pbl_fase5_web.ipynb`](src/RenanRamos_RM573201_pbl_fase5_web.ipynb) | [Abrir no Colab](https://colab.research.google.com/github/RenanSluder/templateFiapVfinal/blob/main/src/RenanRamos_RM573201_pbl_fase5_web.ipynb) |
 
-**Vídeo de demonstração (Entrega 1):** *[link YouTube não listado — a preencher]*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r0LgJtEA8G5SFdSWksU7YYj4qQ3tyypI)
+
+- Colab (GitHub — notebook principal): https://colab.research.google.com/github/RenanSluder/templateFiapVfinal/blob/main/src/RenanRamos_RM573201_pbl_fase5.ipynb
+- Colab (GitHub — versão web): https://colab.research.google.com/github/RenanSluder/templateFiapVfinal/blob/main/src/RenanRamos_RM573201_pbl_fase5_web.ipynb
+- Colab (Google Drive): https://colab.research.google.com/drive/1r0LgJtEA8G5SFdSWksU7YYj4qQ3tyypI
+
+**Vídeo de demonstração (Entrega 1) — YouTube, não listado:** https://youtu.be/TkqFthurm0o
 
 
 
@@ -78,7 +84,7 @@ pip install -r requirements.txt
 jupyter notebook src/RenanRamos_RM573201_pbl_fase5.ipynb
 ```
 
-No Google Colab: `Arquivo → Fazer upload de notebook` e selecione a versão `_web-colab.ipynb`, depois `Ambiente de execução → Executar tudo`.
+No Google Colab, use um dos links da seção acima (badge **Open In Colab**, GitHub ou Drive). Alternativa: `Arquivo → Fazer upload de notebook` com `src/RenanRamos_RM573201_pbl_fase5_web.ipynb`, depois `Ambiente de execução → Executar tudo`.
 
 Testes dos módulos de suporte (opcional): `pytest tests/ -v`
 
